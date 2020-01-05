@@ -4,6 +4,14 @@
 # Date : 05-01-2020
 # Description: The following powershell script will create a custom azure image from a managed disk
 # script usage: ./azure_image_creation.ps1 -resourceGroupName <resourceGroupName> -location <location> -vmName <vmName> -snapshotName <snapshotName> -imageName <imageName>
+
+#############Input Description starts ######
+#resourceGroupName is the Name of VM's Resource Group(Which is need to be created as an image)
+#location is the where the VM is located
+#vmName is Name of the VM
+#snapshotName is in which name the snapshot needs to be created
+#imageName is in which name the custom image needs to be created
+#############Input Description ends ######
 ################################################################################################################################################
 
 ##############Required Inputs for this Script starts #################
